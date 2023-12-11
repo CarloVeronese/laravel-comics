@@ -27,7 +27,6 @@ ul {
     background-color: #0282F9;
     padding: 0 30px;
     line-height: 55px;
-    color: white;
     font-weight: bold;
     position: absolute;
     top: -30px;
@@ -46,4 +45,14 @@ ul {
     font-size: 15px;
 }
 
+.load-more {
+    h4 {
+        width: fit-content;
+        background-color: #0282F9;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 36px;
+        padding: 0 55px;
+    }
+}
 
