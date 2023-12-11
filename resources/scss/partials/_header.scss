@@ -1,3 +1,13 @@
+ul {
+    margin-bottom: 0;
+}
+
+.page-header {
+    padding-bottom: 400px;
+    background-size: cover;
+    background-position: top 100px;
+}
+
 .page-top {
     background-color: #0282F9;
     color: white;
@@ -5,5 +15,25 @@
     font-weight: 600;
     li {
         font-size: 10px;
+    }
+}
+
+.nav-bar {
+    padding: 16px 0;
+    .logo {
+        width: 78px;
+    }
+    .search {
+        position: relative;
+        padding: 0;
+        &::after {
+            content: '';
+            padding: 1px;
+            background-color: #0282F9;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: -5px;
+        }
     }
 }
