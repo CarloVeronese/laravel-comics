@@ -1,0 +1,64 @@
+.categories {
+    background-color: #0282F9;
+    padding: 48px 0;
+    color: white;
+    .category-content {
+        gap: 5px;
+        .category-img {
+            width: 38px;
+        }
+    }
+}
+
+.footer-menu {
+    padding: 40px 0;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+    .dc-logo {
+        position: absolute;
+        right: 50px;
+        top: -70px;
+    }
+    .list-title {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .list-voice {
+        color: grey;
+        font-size: 12px;
+    }
+    .first-col {
+        gap: 20px;
+    }
+    .disclaimer {
+        color: grey;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .blue {
+        color: #0282F9;
+        text-decoration: none;
+    }
+}
+
+.footer-contact {
+    background-color: #303030;
+    padding: 27px 0;
+    .sign-up {
+        width: fit-content;
+        border: 2px solid #0282F9;
+        color: white;
+        font-weight: bold;
+        line-height: 48px;
+        padding: 0 15px;
+    }
+    .socials{
+        .follow-us {
+            color: #0282F9;
+            font-size: 21px;
+            font-weight: bold;
+        }
+    }
+}
