@@ -13,7 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('', function() {
+    $page = 'HOME';
+    return view('home', compact('page'));
+});
+
+Route::get('/comics', function () {
     $comics = [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
@@ -125,4 +130,49 @@ Route::get('/', function () {
         ]
     ];
     return view('comics', compact('comics'));
+})->name('comics');
+
+Route::get('/characters', function() {
+    $page = 'CHARACTERS';
+    return view('home', compact('page'));
+});
+
+Route::get('/movies', function() {
+    $page = 'MOVIES';
+    return view('home', compact('page'));
+});
+
+Route::get('/tv', function() {
+    $page = 'TV';
+    return view('home', compact('page'));
+});
+
+Route::get('/games', function() {
+    $page = 'GAMES';
+    return view('home', compact('page'));
+});
+
+Route::get('/collectibles', function() {
+    $page = 'COLLECTIBLES';
+    return view('home', compact('page'));
+});
+
+Route::get('/videos', function() {
+    $page = 'VIDEOS';
+    return view('home', compact('page'));
+});
+
+Route::get('/fans', function() {
+    $page = 'FANS';
+    return view('home', compact('page'));
+});
+
+Route::get('/news', function() {
+    $page = 'NEWS';
+    return view('home', compact('page'));
+});
+
+Route::get('/shop', function() {
+    $page = 'SHOP';
+    return view('home', compact('page'));
 });
