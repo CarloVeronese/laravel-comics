@@ -1,6 +1,49 @@
 @import '~bootstrap/scss/bootstrap';
 @import './partials/_header';
 
+.comics {
+    background-color: #1C1C1C;
+    color: white;
+    position: relative;
+    padding-top: 55px;
+}
+
 ul {
     list-style: none;
 }
+
+.comics-list {
+    row-gap: 50px;
+}
+
+.comic-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.current-series {
+    width: fit-content;
+    background-color: #0282F9;
+    padding: 0 30px;
+    line-height: 55px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: -30px;
+    left: 100px;
+}
+
+.thumb {
+    width: 182px;
+    object-fit: cover;
+    aspect-ratio: 1;
+    display: block;
+}    
+
+.series {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
