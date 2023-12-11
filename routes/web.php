@@ -135,44 +135,44 @@ Route::get('/comics', function () {
 Route::get('/characters', function() {
     $page = 'CHARACTERS';
     return view('home', compact('page'));
-});
+})->name('characters');
 
 Route::get('/movies', function() {
     $page = 'MOVIES';
     return view('home', compact('page'));
-});
+})->name('movies');
 
 Route::get('/tv', function() {
     $page = 'TV';
     return view('home', compact('page'));
-});
+})->name('tv');
 
 Route::get('/games', function() {
     $page = 'GAMES';
     return view('home', compact('page'));
-});
+})->name('games');
 
 Route::get('/collectibles', function() {
     $page = 'COLLECTIBLES';
     return view('home', compact('page'));
-});
+})->name('collectibles');
 
 Route::get('/videos', function() {
     $page = 'VIDEOS';
     return view('home', compact('page'));
-});
+})->name('videos');
 
 Route::get('/fans', function() {
     $page = 'FANS';
     return view('home', compact('page'));
-});
+})->name('fans');
 
 Route::get('/news', function() {
     $page = 'NEWS';
     return view('home', compact('page'));
-});
+})->name('news');
 
 Route::get('/shop', function() {
     $page = 'SHOP';
     return view('home', compact('page'));
-});
+})->name('shop');

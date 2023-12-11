@@ -14,16 +14,16 @@
                     <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="" class="logo">
                 </div>
                 <ul class="col d-flex flex-grow-1 justify-content-between">
-                    <li><a href="http://127.0.0.1:8000/characters" class="text-decoration-none text-dark fw-bold">CHARACTERS</a></li>          
-                    <li><a href="http://127.0.0.1:8000/comics" class="text-decoration-none text-dark fw-bold">COMICS</a></li>          
-                    <li><a href="http://127.0.0.1:8000/movies" class="text-decoration-none text-dark fw-bold">MOVIES</a></li>          
-                    <li><a href="http://127.0.0.1:8000/tv" class="text-decoration-none text-dark fw-bold">TV</a></li>          
-                    <li><a href="http://127.0.0.1:8000/games" class="text-decoration-none text-dark fw-bold">GAMES</a></li>          
-                    <li><a href="http://127.0.0.1:8000/collectibles" class="text-decoration-none text-dark fw-bold">COLLECTIBLES</a></li>                        
-                    <li><a href="http://127.0.0.1:8000/videos" class="text-decoration-none text-dark fw-bold">VIDEOS</a></li>          
-                    <li><a href="http://127.0.0.1:8000/fans" class="text-decoration-none text-dark fw-bold">FANS</a></li>          
-                    <li><a href="http://127.0.0.1:8000/news" class="text-decoration-none text-dark fw-bold">NEWS</a></li>          
-                    <li><a href="http://127.0.0.1:8000/shop" class="text-decoration-none text-dark fw-bold">SHOP</a></li>          
+                    <li><a href="{{route('characters')}}" class="text-decoration-none text-dark fw-bold">CHARACTERS</a></li>          
+                    <li><a href="{{route('comics')}}" class="text-decoration-none text-dark fw-bold">COMICS</a></li>          
+                    <li><a href="{{route('movies')}}" class="text-decoration-none text-dark fw-bold">MOVIES</a></li>          
+                    <li><a href="{{route('tv')}}" class="text-decoration-none text-dark fw-bold">TV</a></li>          
+                    <li><a href="{{route('games')}}" class="text-decoration-none text-dark fw-bold">GAMES</a></li>          
+                    <li><a href="{{route('collectibles')}}" class="text-decoration-none text-dark fw-bold">COLLECTIBLES</a></li>                        
+                    <li><a href="{{route('videos')}}" class="text-decoration-none text-dark fw-bold">VIDEOS</a></li>          
+                    <li><a href="{{route('fans')}}" class="text-decoration-none text-dark fw-bold">FANS</a></li>          
+                    <li><a href="{{route('news')}}" class="text-decoration-none text-dark fw-bold">NEWS</a></li>          
+                    <li><a href="{{route('shop')}}" class="text-decoration-none text-dark fw-bold">SHOP</a></li>          
                 </ul>
                 <div class="col-auto search">
                     <input type="text" placeholder="search" class="border border-0 search-bar">
